@@ -278,11 +278,13 @@ li {
 
 .cta-button._2nd-btn-copy {
   background-color: #67a1ff;
+  background-image: linear-gradient(100deg, #67a1ff, #d0a6ff);
   border: 2px solid #67a1ff;
 }
 
 .cta-button._2nd-btn-copy:hover {
   background-color: #d0a6ff;
+  background-image: linear-gradient(100deg, #84abeb, #ead6ff);
 }
 
 .video-container {
@@ -354,9 +356,11 @@ li {
 }
 
 .section.get-in-touch-section {
+  max-height: 378px;
   color: #202027;
   padding-top: 7.875em;
   padding-bottom: 7.875em;
+  overflow: visible;
 }
 
 .trust-div {
@@ -699,7 +703,7 @@ li {
 }
 
 .footer-light {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
   border-bottom: 1px solid #e4ebf3;
   padding: 80px 30px 40px;
   position: relative;
@@ -713,8 +717,11 @@ li {
 }
 
 .footer-wrapper-two {
-  justify-content: space-between;
-  align-items: flex-start;
+  width: 100%;
+  grid-column-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
   display: flex;
 }
 
@@ -807,14 +814,17 @@ li {
 .footer-divider-two {
   width: 100%;
   height: 1px;
-  background-color: #e4ebf3;
+  background-color: #202027;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: none;
 }
 
 .footer-bottom {
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  justify-content: center;
   align-items: center;
+  margin-top: 20px;
   display: flex;
 }
 
@@ -832,6 +842,7 @@ li {
 }
 
 .footer-social-link-2 {
+  margin-bottom: 12px;
   margin-left: 12px;
 }
 
@@ -841,6 +852,10 @@ li {
 
 .blur-shapes {
   position: relative;
+}
+
+.blur-shapes.bl-shapes-2 {
+  bottom: 0;
 }
 
 .blur-shape-circle {
@@ -871,6 +886,10 @@ li {
   left: 50%;
 }
 
+.blur-shape-circle.blur-shape-hero2.blur-1.blur-heigh, .blur-shape-circle.blur-shape-hero2.blurr {
+  height: 300px;
+}
+
 .div-block {
   position: relative;
 }
@@ -894,6 +913,19 @@ li {
 
 .btns.btns-2 {
   margin-top: 60px;
+}
+
+.list-item-3 {
+  color: #202027;
+}
+
+.list-2 {
+  margin-top: -10px;
+  padding-left: 60px;
+}
+
+.link {
+  color: #202027;
 }
 
 @media screen and (max-width: 991px) {
@@ -946,8 +978,8 @@ li {
 
   .section.trust-section {
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .about-container {
@@ -965,14 +997,10 @@ li {
 
   .about-container._3 {
     grid-row-gap: 40px;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
-  .about-container._4 {
-    grid-row-gap: 40px;
-  }
-
-  .about-container._5 {
+  .about-container._4, .about-container._5 {
     grid-row-gap: 40px;
     flex-direction: column-reverse;
   }
@@ -1430,6 +1458,10 @@ li {
 
   .footer-social-block-two {
     margin-top: 20px;
+  }
+
+  .list-2 {
+    padding-left: 20px;
   }
 }
 
