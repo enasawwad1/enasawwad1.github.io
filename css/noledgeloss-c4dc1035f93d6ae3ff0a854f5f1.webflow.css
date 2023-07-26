@@ -363,6 +363,14 @@ li {
   overflow: visible;
 }
 
+.section.video-section {
+  z-index: 1;
+  justify-content: center;
+  padding: 64px 150px 32px;
+  position: relative;
+  overflow: hidden;
+}
+
 .trust-div {
   color: #fff;
   text-align: center;
@@ -852,6 +860,9 @@ li {
 
 .blur-shapes {
   position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .blur-shapes.bl-shapes-2 {
@@ -868,7 +879,7 @@ li {
 }
 
 .blur-shape-circle.blur-shape-hero2 {
-  width: 42%;
+  width: 40%;
   height: 39em;
   filter: blur(8em);
   background-image: linear-gradient(150deg, rgba(51, 129, 255, .4) 20%, rgba(175, 102, 255, .2) 72%);
@@ -886,8 +897,21 @@ li {
   left: 50%;
 }
 
-.blur-shape-circle.blur-shape-hero2.blur-1.blur-heigh, .blur-shape-circle.blur-shape-hero2.blurr {
+.blur-shape-circle.blur-shape-hero2.blur-1.blur-heigh {
   height: 300px;
+}
+
+.blur-shape-circle.blur-shape-hero2.blur-1._4 {
+  top: -60em;
+  left: 80%;
+}
+
+.blur-shape-circle.blur-shape-hero2.blurr {
+  height: 300px;
+}
+
+.blur-shape-circle.blur-shape-hero2._3 {
+  top: -60em;
 }
 
 .div-block {
@@ -926,6 +950,15 @@ li {
 
 .link {
   color: #202027;
+}
+
+.video-2 {
+  width: 100%;
+}
+
+.video-3 {
+  z-index: 4;
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
@@ -980,6 +1013,11 @@ li {
     height: auto;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .section.video-section {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .about-container {
@@ -1045,6 +1083,10 @@ li {
 
   .footer-form-container {
     max-width: 350px;
+  }
+
+  .html-embed {
+    width: 100vw;
   }
 }
 
@@ -1353,6 +1395,12 @@ li {
 
   .section.trust-section {
     height: 200px;
+  }
+
+  .section.video-section {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .title, .title.about-me-title {
