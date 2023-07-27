@@ -1401,6 +1401,7 @@ li {
     padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
+    display: block;
   }
 
   .title, .title.about-me-title {
@@ -1506,6 +1507,10 @@ li {
 
   .footer-social-block-two {
     margin-top: 20px;
+  }
+
+  .btns {
+    flex-direction: column;
   }
 
   .list-2 {
