@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+	 	 	 	 	 <style>
+
+#check{
+fill:none;
+stroke:#67a1ff;
+stroke-width:6;
+stroke-miterlimit:10;
+stroke-linecap: round;
+stroke-dasharray: 100;
+stroke-dashoffset: 100;
+animation: lers 6s 1s ease infinite;
+
+}
+
+#elipse{
+fill:#67a1ff;
+fill-opacity:0;
+stroke:#9999FF;
+stroke-width:6;
+stroke-miterlimit:10;
+stroke-linecap: round;
+stroke-dasharray: 500;
+stroke-dashoffset: 500;
+animation: drawlogo 6s 1s ease infinite;
+}
+
+
+
+#linha1, #linha2, #linha3{
+	fill:none;
+	stroke:#67a1ff;
+	stroke-width:30;
+	stroke-miterlimit:10;
+	stroke-dasharray: 150;
+     stroke-dashoffset: 150;
+	animation: drawlogo 6s 1s ease infinite;
+}
+
+
+
+	 #lineleft1, #lineleft2, #lineleft3, #lineleft4{
+	  	animation: animate-up 400ms linear infinite;
+}
+	 #rightline3, #rightline2, #rightline1{
+	  	 	animation: animate-up 400ms linear infinite;
+}
+
+.linefill{
+ 	stroke-opacity:1;
+}
+
+.array{
+ stroke-dasharray: 5 12.5;
+}
+
+
+
+@keyframes animate-up {
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+@-webkit-keyframes animate-up {
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+
+
+@keyframes animate-down {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+@-webkit-keyframes animate-down {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@keyframes drawlogo {
+  from {
+    stroke-dashoffset: 150;
+	}
+
+  to {
+	 stroke-dashoffset: 0;  
+  }
+
+}
+
+@keyframes drawline {
+  from {
+    stroke-dashoffset: 100;
+	}
+
+  to {
+	 stroke-dashoffset: 0;  
+  }
+
+}
+
+
+@keyframes stay {
+  from {
+    stroke-dashoffset: 50;
+	}
+
+  to {
+	 stroke-dashoffset: 50;  
+  }
+
+}
+
+@keyframes lers {
+  0% {
+    stroke-dashoffset: 100;
+	}
+
+  50% {
+	 stroke-dashoffset: 0;  
+  }
+
+   100% {
+	 stroke-dashoffset: 100;  
+  }
+
+}
+
+
+
+@keyframes fillline {
+  from {
+    stroke-dashoffset: 0;
+	}
+
+  to {
+	 stroke-dashoffset: 200;  
+  }
+
+}
+
+
+ @keyframes showSuccess {
+	 from {
+		 transform: scale(0);
+	}
+	 to {
+		 transform: scale(1);
+	}
+}
+
+
+ @keyframes tipInPlace {
+	 from {
+		 width: 0em;
+		 top: 0em;
+		 left: -1.6em;
+	}
+	 to {
+		 width: 2.4em;
+		 top: 4.3em;
+		 left: 1.4em;
+		 visibility: visible;
+	}
+}
+
+ @keyframes fill {
+	 from {
+		 fill-opacity:0
+	}
+	 to {
+		 fill-opacity:1
+	}
+}
+</style>
+<line id="linha1" x1="35.1" y1="137.6" x2="35.1" y2="125.4"/>
+<line  id="linha2"  x1="72.5" y1="137.6" x2="72.5" y2="87.1"/>
+<line  id="linha3"  x1="109.9" y1="137.6" x2="109.9" y2="29.4"/>
+</svg>

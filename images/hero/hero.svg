@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1800 1165" style="enable-background:new 0 0 1800 1165;" xml:space="preserve">
+	 	 	 <style>
+	 #c1,  #c3{
+
+		animation: animateCloud 175s linear infinite;
+		transform: scale(0.2);
+}
+	
+
+		  #c2{
+
+		animation: animateCloud2 175s linear infinite;
+		transform: scale(0.2);
+}
+	
+
+
+@keyframes animateCloud {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+              transform: translateX(-200vw);
+    }
+
+	  100% {
+              transform: translateX(200vw);
+    }
+
+
+}
+
+@keyframes animateCloud2 {
+    0% {
+        transform: translateX(200vw);
+    }
+    50% {
+              transform: translateX(0px);
+    }
+
+	  100% {
+              transform: translateX(-200vw);
+    }
+
+
+}
+</style>
+<g id="c3">
+	
+		<linearGradient id="cll2_00000170968668501018901930000017804329825517075869_" gradientUnits="userSpaceOnUse" x1="768.8026" y1="448.0307" x2="934.9127" y2="448.0307" gradientTransform="matrix(1 0 0 -1 0 498)">
+		<stop  offset="0.804" style="stop-color:#CAB5FF"/>
+		<stop  offset="0.9118" style="stop-color:#CAB5FF"/>
+	</linearGradient>
+	<path id="cll2" style="fill:url(#cll2_00000170968668501018901930000017804329825517075869_);" d="M775.3,75.8l121.4,2.8
+		c0,0,37.7,3.7,38.2-10.2c0.5-14-14-18.1-16.7-24.2c-2.8-6-17.7-24.8-32.6-23.3c-14.9,1.5-21.4,8.9-26.5,8.4s-11.2-7.9-24.7-2.3
+		s-28.8,21.3-35.9,23c-7,1.7-17.7,0.8-23.2,7.3C769.6,63.8,764.1,71.1,775.3,75.8z"/>
+</g>
+<g id="c2">
+	
+		<linearGradient id="cll2_00000147196492330786849850000011756251067603820725_" gradientUnits="userSpaceOnUse" x1="2056.0837" y1="451.1494" x2="2204.2483" y2="451.1494" gradientTransform="matrix(-1 0 0 -1 2454.9341 498)">
+		<stop  offset="0.804" style="stop-color:#CAB5FF"/>
+		<stop  offset="0.9118" style="stop-color:#CAB5FF"/>
+	</linearGradient>
+	
+		<path id="cll2_00000181060095578386383060000002149475732057194655_" style="fill:url(#cll2_00000147196492330786849850000011756251067603820725_);" d="
+		M393.1,53.4c-5-5.8-14.5-5-20.7-6.5c-6.3-1.5-20-15.6-32-20.5c-12.1-5-17.5,1.6-22,2c-4.6,0.4-10.4-6.2-23.7-7.5
+		c-13.3-1.3-26.6,15.4-29.1,20.8c-2.5,5.4-15.4,9.1-14.9,21.6c0.4,12.5,34.1,9.1,34.1,9.1l108.4-2.5C403,65.8,398.1,59.2,393.1,53.4
+		z"/>
+</g>
+<g id="c1">
+	
+		<linearGradient id="cl1_00000113325982167723909220000007730107890879821465_" gradientUnits="userSpaceOnUse" x1="1573.1432" y1="459.777" x2="1725.4227" y2="459.777" gradientTransform="matrix(1 0 0 -1 0 498)">
+		<stop  offset="0.804" style="stop-color:#CAB5FF"/>
+		<stop  offset="0.9118" style="stop-color:#CAB5FF"/>
+	</linearGradient>
+	<path id="cl1" style="fill:url(#cl1_00000113325982167723909220000007730107890879821465_);" d="M1607.8,68.4
+		c0,0-28.9,0.7-33.3-8.6s0.7-33.3,33.3-33.3c0,0,5.8,1.5,10.9-2.9c5.1-4.3,22.5-20.2,47.8-15.9s26.8,15.2,35.4,22.5
+		s28.2,14.5,22.5,24.6s-16.7,17.4-42,13.7C1657,65,1607.8,68.4,1607.8,68.4z"/>
+</g>
+</svg>

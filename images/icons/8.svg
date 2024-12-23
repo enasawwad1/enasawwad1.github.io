@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 211 150" style="enable-background:new 0 0 211 150;" xml:space="preserve">
+	 	 	 <style>
+
+#brain{
+fill:#67a1ff;
+stroke:#67a1ff;
+stroke-width:4;
+stroke-miterlimit:10;
+}
+
+#letters{
+fill:white;
+stroke:white;
+stroke-width:1;
+stroke-miterlimit:10;
+}
+
+#elipse{
+fill:none;
+stroke:#67a1ff;;
+stroke-width:6;
+stroke-miterlimit:10;
+stroke-linecap: round;
+stroke-dasharray: 500;
+stroke-dashoffset: 500;
+ background-image: linear-gradient(150deg, rgba(51, 129, 255, .4) 20%, rgba(175, 102, 255, .2) 72%);
+animation: drawlogo 7s ease infinite;
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8{
+fill:none;
+stroke:#67a1ff;;
+stroke-width:2;
+stroke-linecap:round;
+stroke-miterlimit:10;
+stroke-dasharray: 50;
+stroke-dashoffset: 50;
+
+animation: drawline 2s ease infinite;
+}
+
+
+#line1, #line2, #line3, #line4, #line5, #line6, #line7, #line8{
+fill:none;
+stroke:#67a1ff;;
+stroke-width:2;
+stroke-linecap:round;
+stroke-miterlimit:10;
+stroke-dasharray: 50;
+stroke-dashoffset: 50;
+
+animation: drawline 2s ease infinite;
+}
+
+#line2{
+animation-delay:0.5s
+}
+
+#line3{
+animation-delay:1s
+}
+
+
+#line4{
+animation-delay:1.5s
+}
+
+
+#line5{
+animation-delay:2s
+}
+
+	 #lineleft1, #lineleft2, #lineleft3, #lineleft4{
+	  	animation: animate-up 400ms linear infinite;
+}
+	 #rightline3, #rightline2, #rightline1{
+	  	 	animation: animate-up 400ms linear infinite;
+}
+
+.linefill{
+ 	stroke-opacity:1;
+}
+
+.array{
+ stroke-dasharray: 5 12.5;
+}
+
+
+
+@keyframes animate-up {
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+@-webkit-keyframes animate-up {
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+
+
+@keyframes animate-down {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+@-webkit-keyframes animate-down {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@keyframes drawlogo {
+  from {
+    stroke-dashoffset: 1000;
+	}
+
+  to {
+	 stroke-dashoffset: 0;  
+  }
+
+}
+
+@keyframes drawline {
+  from {
+    stroke-dashoffset: 50;
+	}
+
+  to {
+	 stroke-dashoffset: 0;  
+  }
+
+}
+
+
+@keyframes stay {
+  from {
+    stroke-dashoffset: 50;
+	}
+
+  to {
+	 stroke-dashoffset: 50;  
+  }
+
+}
+
+
+@keyframes fillline {
+  from {
+    stroke-dashoffset: 0;
+	}
+
+  to {
+	 stroke-dashoffset: 50;  
+  }
+
+}
+
+
+</style>
+
+<g id="lines">
+<polyline id="line1"  points="140.6,88.7 157.5,88.7 157.5,100.4 "/>
+	<polyline id="line2"  points="87.1,10.4 97.6,10.4 97.6,33.8 	"/>
+	<line id="line3"  x1="109" y1="38.7" x2="109" y2="15.2"/>
+	<polyline id="line4"  points="147.3,66.6 170.3,66.6 170.3,57.5 	"/>
+	<polyline id="line5"  points="53.9,50.4 53.9,62.1 65.2,62.1 	"/>
+	<polyline id="line6"  points="65,83.4 41.1,83.4 41.1,92.7 	"/>
+	<line id="line7"  x1="102.1" y1="107.6" x2="102.1" y2="136.5"/>
+	<polyline id="line8"  points="114.4,113.6 114.4,139.6 124,139.6 	"/>
+</g>
+<g id="brain_00000018230036507354967260000006228287453904589987_">
+	<path id="brain" d="M150.6,71.4c0-6.6-4.8-12-11.1-13
+		c0.5-1.2,0.7-2.5,0.7-3.9c0-6.1-5-11.1-11.1-11.1c-0.5,0-1,0-1.5,0.1c0.1-0.7,0.2-1.5,0.2-2.2c0-6.8-5.5-12.3-12.3-12.3
+		c-5.3,0-9.9,3.4-11.6,8.2c-1.7-4.8-6.2-8.2-11.6-8.2c-6.8,0-12.3,5.5-12.3,12.3c0,0.8,0.1,1.5,0.2,2.2c-0.5-0.1-1-0.1-1.5-0.1
+		c-6.1,0-11.1,5-11.1,11.1c0,1.4,0.3,2.7,0.7,3.9c-6.3,1-11.1,6.4-11.1,13c0,5.3,3.2,9.9,7.7,12c-0.1,0.7-0.2,1.4-0.2,2.1
+		c0,6.6,4.7,12.2,11,13.5c0,0.2,0,0.5,0,0.7c0,7.9,6.4,14.3,14.3,14.3c6.7,0,12.2-4.5,13.8-10.7c1.6,6.2,7.2,10.7,13.8,10.7
+		c7.9,0,14.3-6.4,14.3-14.3c0-0.2,0-0.5,0-0.7c6.3-1.3,11-6.8,11-13.5c0-0.7-0.1-1.4-0.2-2.1C147.5,81.3,150.6,76.8,150.6,71.4z"/>
+	<g id="letters">
+		<path d="M106.8,81.7l-2-4.6h-9l-2,4.6h-5.1L98,60.2h4.6l9.3,21.5H106.8z M100.4,66.6l-2.7,6.2h5.4L100.4,66.6z"/>
+		<path d="M114.4,60.2h4.8v21.5h-4.8V60.2z"/>
+	</g>
+</g>
+<g id="balls">
+	<circle id="c1" cx="157.5" cy="104.1" r="3.7"/>
+	<circle id="c2" cx="170.3" cy="53.7" r="3.7"/>
+	<circle id="c3" cx="109" cy="12.6" r="3.7"/>
+	<circle id="c4" cx="83.4" cy="10.4" r="3.7"/>
+	<circle id="c5" cx="53.9" cy="48" r="3.7"/>
+	<circle id="c6" cx="41.1" cy="96.3" r="3.7"/>
+	<circle id="c7" cx="102.1" cy="138.3" r="3.7"/>
+	<circle id="c8" cx="126.7" cy="139.6" r="3.7"/>
+</g>
+</svg>

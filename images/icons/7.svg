@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 211 150" style="enable-background:new 0 0 211 150;" xml:space="preserve">
+
+	 	 <style>
+		#line1{
+fill:none;
+stroke:#67a1ff;
+stroke-width:3;
+stroke-linecap:round;
+
+}
+
+circle{
+fill-opacity:1;
+stroke:none;
+
+}
+
+
+#circle1{
+fill:#dcbcff;
+animation: fade 6s ease infinite;
+
+}
+
+#circle2{
+fill:#67a1ff;
+animation: fade 7s ease infinite;
+
+
+}
+
+#circle3{
+fill:black;
+animation: fade 8s ease infinite;
+
+
+}
+
+
+
+@keyframes fade{
+  0% {
+    fill-opacity:1;
+  }
+   98% {
+    fill-opacity:1;
+  }
+   100% {
+    fill-opacity:0;
+  }
+}
+
+
+	 </style>
+
+	 		<path id="path1" style="display:none;"  d="M166.1,109.4
+		c-0.8,0.1-6.5,0.2-7.3,0.2H46.7c-7.9,0-14.3-7.8-14.3-17.3S38.7,75,46.7,75h1h111.1l0.9,0c7.5-0.5,13.5-8.1,13.5-17.3
+		c0-9.6-6.4-17.3-14.3-17.3H46.7"/>
+
+<g id="line">
+	<path id="line1" d="M166.1,109.4
+		c-0.8,0.1-6.5,0.2-7.3,0.2H46.7c-7.9,0-14.3-7.8-14.3-17.3S38.7,75,46.7,75h1h111.1l0.9,0c7.5-0.5,13.5-8.1,13.5-17.3
+		c0-9.6-6.4-17.3-14.3-17.3H46.7"/>
+</g>
+<g >
+<circle id="circle1" cx="0" cy="0" r="8"/>
+		  <animateMotion dur="6s" repeatCount="indefinite">
+                      <mpath xlink:href="#path1"></mpath>
+                    </animateMotion>
+</g>
+<g >
+<circle  id="circle2" cx="0" cy="0" r="8"/>
+		  <animateMotion dur="7s" repeatCount="indefinite">
+                      <mpath xlink:href="#path1"></mpath>
+                    </animateMotion>
+</g>
+<g >
+<circle  id="circle3" cx="0" cy="0" r="8"/>
+		  <animateMotion dur="8s" repeatCount="indefinite">
+                      <mpath xlink:href="#path1"></mpath>
+                    </animateMotion>
+</g>
+
+</svg>
